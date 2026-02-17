@@ -1,0 +1,897 @@
+2026-02-17 14:20:42,930 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 14:20:42,964 INFO crawler.main Progress: 1/1 symbols processed, inserted=0, failed=0
+2026-02-17 14:20:42,964 INFO crawler.main Finished. elapsed=0.0s, inserted=0, failed=0
+2026-02-17 14:20:42,964 INFO crawler.main Feature rows upserted=1
+2026-02-17 14:20:42,964 INFO crawler.main Stock info rows upserted=0
+2026-02-17 14:20:42,964 INFO crawler.main Frequency summary: daily inserted=0
+2026-02-17 14:20:42,964 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 14:21:59,671 INFO crawler.fetcher Fetched 5507 stock_info rows from Eastmoney
+2026-02-17 14:21:59,699 INFO crawler.main Stock info upserted=5507
+2026-02-17 14:23:08,607 INFO crawler.fetcher Fetched 5507 A-share symbols from Eastmoney list API
+2026-02-17 14:23:08,609 INFO crawler.main Start crawling: symbols=5507, frequencies=['daily']
+2026-02-17 14:23:14,378 WARNING crawler.fetcher Timeout (attempt 1/5): HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=5.0)
+2026-02-17 14:23:47,558 ERROR crawler.main Failed 000005.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:24:07,528 ERROR crawler.main Failed 000007.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:06,324 ERROR crawler.main Failed 000016.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:19,751 ERROR crawler.main Failed 000018.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:25,442 ERROR crawler.main Failed 000019.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:31,757 ERROR crawler.main Failed 000020.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:31,758 INFO crawler.main Progress: 20/5507 symbols processed, inserted=20900, failed=6
+2026-02-17 14:25:38,712 ERROR crawler.main Failed 000021.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:45,877 ERROR crawler.main Failed 000023.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:25:59,341 ERROR crawler.main Failed 000025.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:26:19,749 ERROR crawler.main Failed 000028.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:26:32,617 ERROR crawler.main Failed 000030.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:26:46,109 ERROR crawler.main Failed 000032.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:27:18,500 ERROR crawler.main Failed 000037.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:27:31,435 ERROR crawler.main Failed 000039.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:27:44,302 INFO crawler.main Progress: 40/5507 symbols processed, inserted=46718, failed=14
+2026-02-17 14:28:23,620 ERROR crawler.main Failed 000050.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:28:30,842 ERROR crawler.main Failed 000055.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:28:37,012 ERROR crawler.main Failed 000056.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:28:50,730 ERROR crawler.main Failed 000059.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:28:57,100 ERROR crawler.main Failed 000060.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:03,113 ERROR crawler.main Failed 000061.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:09,930 ERROR crawler.main Failed 000062.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:17,389 ERROR crawler.main Failed 000063.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:23,858 ERROR crawler.main Failed 000065.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:30,787 ERROR crawler.main Failed 000066.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:49,268 ERROR crawler.main Failed 000070.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:29:55,172 INFO crawler.main Progress: 60/5507 symbols processed, inserted=72609, failed=25
+2026-02-17 14:30:01,625 ERROR crawler.main Failed 000088.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:07,852 ERROR crawler.main Failed 000089.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:22,274 ERROR crawler.main Failed 000096.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:28,698 ERROR crawler.main Failed 000099.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:34,947 ERROR crawler.main Failed 000100.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:48,466 ERROR crawler.main Failed 000151.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:30:54,976 ERROR crawler.main Failed 000153.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:31:09,184 ERROR crawler.main Failed 000156.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:31:23,291 ERROR crawler.main Failed 000158.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:31:49,619 ERROR crawler.main Failed 000333.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:32:02,812 ERROR crawler.main Failed 000400.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:32:09,829 INFO crawler.main Progress: 80/5507 symbols processed, inserted=98253, failed=36
+2026-02-17 14:32:22,574 ERROR crawler.main Failed 000403.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:33:09,417 ERROR crawler.main Failed 000410.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:33:15,404 ERROR crawler.main Failed 000411.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:33:35,193 ERROR crawler.main Failed 000415.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:33:41,183 ERROR crawler.main Failed 000416.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:33:59,649 ERROR crawler.main Failed 000419.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:34:12,644 ERROR crawler.main Failed 000421.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:34:18,728 INFO crawler.main Progress: 100/5507 symbols processed, inserted=121118, failed=43
+2026-02-17 14:34:25,763 ERROR crawler.main Failed 000423.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:35:04,696 ERROR crawler.main Failed 000488.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:35:24,825 ERROR crawler.main Failed 000502.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:35:31,757 ERROR crawler.main Failed 000503.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:35:37,822 ERROR crawler.main Failed 000504.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:35:44,471 ERROR crawler.main Failed 000505.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:36:27,281 INFO crawler.main Progress: 120/5507 symbols processed, inserted=146165, failed=49
+2026-02-17 14:36:46,943 ERROR crawler.main Failed 000516.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:36:59,924 ERROR crawler.main Failed 000518.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:37:12,401 ERROR crawler.main Failed 000520.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:37:31,660 ERROR crawler.main Failed 000523.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:37:37,876 ERROR crawler.main Failed 000524.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:37:44,487 ERROR crawler.main Failed 000525.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:37:51,663 ERROR crawler.main Failed 000526.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:38:04,037 ERROR crawler.main Failed 000528.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:38:17,612 ERROR crawler.main Failed 000530.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:38:24,251 ERROR crawler.main Failed 000531.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:38:37,332 ERROR crawler.main Failed 000533.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:38:37,332 INFO crawler.main Progress: 140/5507 symbols processed, inserted=170819, failed=60
+2026-02-17 14:38:57,218 ERROR crawler.main Failed 000536.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:39:04,626 ERROR crawler.main Failed 000537.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:39:42,189 ERROR crawler.main Failed 000543.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:39:48,551 ERROR crawler.main Failed 000544.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:39:54,921 ERROR crawler.main Failed 000545.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:01,075 ERROR crawler.main Failed 000546.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:06,981 ERROR crawler.main Failed 000547.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:31,847 ERROR crawler.main Failed 000551.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:38,484 ERROR crawler.main Failed 000552.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:44,581 ERROR crawler.main Failed 000553.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:40:44,581 INFO crawler.main Progress: 160/5507 symbols processed, inserted=194004, failed=70
+2026-02-17 14:40:51,048 ERROR crawler.main Failed 000554.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:41:16,408 ERROR crawler.main Failed 000558.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:41:40,773 ERROR crawler.main Failed 000562.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:41:46,969 ERROR crawler.main Failed 000563.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:41:53,339 ERROR crawler.main Failed 000564.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:42:06,417 ERROR crawler.main Failed 000566.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:42:13,178 ERROR crawler.main Failed 000567.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:42:38,197 ERROR crawler.main Failed 000571.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:42:44,238 ERROR crawler.main Failed 000572.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:42:50,643 INFO crawler.main Progress: 180/5507 symbols processed, inserted=217826, failed=79
+2026-02-17 14:42:56,776 ERROR crawler.main Failed 000576.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:43:28,280 ERROR crawler.main Failed 000584.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:43:47,473 ERROR crawler.main Failed 000587.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:43:58,730 ERROR crawler.main Failed 000589.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:44:04,680 ERROR crawler.main Failed 000590.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:44:23,033 ERROR crawler.main Failed 000593.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:44:43,083 ERROR crawler.main Failed 000596.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:44:54,955 INFO crawler.main Progress: 200/5507 symbols processed, inserted=240835, failed=86
+2026-02-17 14:45:01,531 ERROR crawler.main Failed 000599.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:45:08,386 ERROR crawler.main Failed 000600.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:45:14,527 ERROR crawler.main Failed 000601.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:45:26,372 ERROR crawler.main Failed 000603.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:45:32,877 ERROR crawler.main Failed 000605.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:45:45,322 ERROR crawler.main Failed 000607.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:05,052 ERROR crawler.main Failed 000610.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:10,840 ERROR crawler.main Failed 000611.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:16,207 ERROR crawler.main Failed 000612.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:22,037 ERROR crawler.main Failed 000613.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:40,482 ERROR crawler.main Failed 000617.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:59,813 ERROR crawler.main Failed 000620.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:46:59,814 INFO crawler.main Progress: 220/5507 symbols processed, inserted=265712, failed=98
+2026-02-17 14:47:18,665 ERROR crawler.main Failed 000623.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:25,773 ERROR crawler.main Failed 000625.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:31,604 ERROR crawler.main Failed 000626.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:38,134 ERROR crawler.main Failed 000627.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:44,938 ERROR crawler.main Failed 000628.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:51,325 ERROR crawler.main Failed 000629.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:47:57,980 ERROR crawler.main Failed 000630.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:16,299 ERROR crawler.main Failed 000633.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:22,250 ERROR crawler.main Failed 000635.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:28,795 ERROR crawler.main Failed 000636.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:35,000 ERROR crawler.main Failed 000637.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:48,057 ERROR crawler.main Failed 000639.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:48:54,570 ERROR crawler.main Failed 000650.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:49:07,246 ERROR crawler.main Failed 000652.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:49:07,247 INFO crawler.main Progress: 240/5507 symbols processed, inserted=291062, failed=112
+2026-02-17 14:49:20,287 ERROR crawler.main Failed 000655.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:49:32,742 ERROR crawler.main Failed 000657.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:49:44,916 ERROR crawler.main Failed 000659.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:49:57,003 ERROR crawler.main Failed 000661.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:50:40,165 ERROR crawler.main Failed 000669.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:50:46,401 ERROR crawler.main Failed 000670.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:51:06,169 ERROR crawler.main Failed 000673.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:51:12,530 INFO crawler.main Progress: 260/5507 symbols processed, inserted=310358, failed=119
+2026-02-17 14:51:30,823 ERROR crawler.main Failed 000678.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:51:43,014 ERROR crawler.main Failed 000680.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:51:48,974 ERROR crawler.main Failed 000681.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:51:55,748 ERROR crawler.main Failed 000682.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:52:01,433 ERROR crawler.main Failed 000683.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:52:07,811 ERROR crawler.main Failed 000685.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:52:13,918 ERROR crawler.main Failed 000686.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:52:51,387 ERROR crawler.main Failed 000692.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:52:57,856 ERROR crawler.main Failed 000693.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:04,139 ERROR crawler.main Failed 000695.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:17,056 ERROR crawler.main Failed 000698.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:17,058 INFO crawler.main Progress: 280/5507 symbols processed, inserted=333167, failed=130
+2026-02-17 14:53:29,957 ERROR crawler.main Failed 000700.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:36,501 ERROR crawler.main Failed 000701.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:42,254 ERROR crawler.main Failed 000702.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:47,851 ERROR crawler.main Failed 000703.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:53:53,808 ERROR crawler.main Failed 000705.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:01,782 ERROR crawler.main Failed 000707.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:06,923 ERROR crawler.main Failed 000708.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:18,190 ERROR crawler.main Failed 000710.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:29,519 ERROR crawler.main Failed 000712.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:35,042 ERROR crawler.main Failed 000713.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:41,302 ERROR crawler.main Failed 000715.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:54:47,477 ERROR crawler.main Failed 000716.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:05,120 ERROR crawler.main Failed 000719.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:10,983 ERROR crawler.main Failed 000720.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:16,383 ERROR crawler.main Failed 000721.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:16,383 INFO crawler.main Progress: 300/5507 symbols processed, inserted=358573, failed=145
+2026-02-17 14:55:28,504 ERROR crawler.main Failed 000723.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:34,387 ERROR crawler.main Failed 000725.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:39,932 ERROR crawler.main Failed 000726.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:45,246 ERROR crawler.main Failed 000727.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:55:51,332 ERROR crawler.main Failed 000728.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:08,375 ERROR crawler.main Failed 000731.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:20,184 ERROR crawler.main Failed 000733.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:25,713 ERROR crawler.main Failed 000735.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:31,648 ERROR crawler.main Failed 000736.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:38,084 ERROR crawler.main Failed 000737.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:44,054 ERROR crawler.main Failed 000738.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:49,179 ERROR crawler.main Failed 000739.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:56:55,636 ERROR crawler.main Failed 000748.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:06,913 ERROR crawler.main Failed 000751.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:13,184 ERROR crawler.main Failed 000752.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:13,184 INFO crawler.main Progress: 320/5507 symbols processed, inserted=384351, failed=160
+2026-02-17 14:57:18,351 ERROR crawler.main Failed 000753.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:24,272 ERROR crawler.main Failed 000755.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:30,752 ERROR crawler.main Failed 000756.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:42,998 ERROR crawler.main Failed 000758.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:57:53,841 ERROR crawler.main Failed 000760.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:05,048 ERROR crawler.main Failed 000762.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:21,799 ERROR crawler.main Failed 000766.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:27,184 ERROR crawler.main Failed 000767.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:33,254 ERROR crawler.main Failed 000768.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:44,829 ERROR crawler.main Failed 000776.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:50,854 ERROR crawler.main Failed 000777.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:58:56,286 ERROR crawler.main Failed 000778.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:07,520 ERROR crawler.main Failed 000780.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:07,521 INFO crawler.main Progress: 340/5507 symbols processed, inserted=407260, failed=173
+2026-02-17 14:59:19,327 ERROR crawler.main Failed 000783.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:25,732 ERROR crawler.main Failed 000785.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:31,869 ERROR crawler.main Failed 000786.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:43,640 ERROR crawler.main Failed 000788.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:49,350 ERROR crawler.main Failed 000789.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 14:59:54,756 ERROR crawler.main Failed 000790.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:00,079 ERROR crawler.main Failed 000791.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:05,974 ERROR crawler.main Failed 000792.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:12,096 ERROR crawler.main Failed 000793.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:23,117 ERROR crawler.main Failed 000796.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:34,432 ERROR crawler.main Failed 000798.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:40,278 ERROR crawler.main Failed 000799.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:00:51,656 ERROR crawler.main Failed 000801.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:03,788 ERROR crawler.main Failed 000803.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:03,789 INFO crawler.main Progress: 360/5507 symbols processed, inserted=433301, failed=187
+2026-02-17 15:01:16,844 ERROR crawler.main Failed 000806.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:22,836 ERROR crawler.main Failed 000807.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:46,245 ERROR crawler.main Failed 000812.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:52,038 ERROR crawler.main Failed 000813.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:01:57,301 ERROR crawler.main Failed 000815.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:02:23,026 ERROR crawler.main Failed 000820.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:02:27,995 ERROR crawler.main Failed 000821.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:02:40,173 ERROR crawler.main Failed 000823.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:02:50,723 ERROR crawler.main Failed 000826.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:02:56,078 INFO crawler.main Progress: 380/5507 symbols processed, inserted=455646, failed=196
+2026-02-17 15:03:01,292 ERROR crawler.main Failed 000828.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:03:07,051 ERROR crawler.main Failed 000829.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:03:12,508 ERROR crawler.main Failed 000830.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:03:18,248 ERROR crawler.main Failed 000831.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:03:35,521 ERROR crawler.main Failed 000835.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:03:59,124 ERROR crawler.main Failed 000839.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:10,789 ERROR crawler.main Failed 000850.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:17,092 ERROR crawler.main Failed 000851.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:23,087 ERROR crawler.main Failed 000852.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:34,064 ERROR crawler.main Failed 000858.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:45,909 ERROR crawler.main Failed 000860.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:51,754 ERROR crawler.main Failed 000861.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:04:51,755 INFO crawler.main Progress: 400/5507 symbols processed, inserted=481671, failed=208
+2026-02-17 15:04:56,700 ERROR crawler.main Failed 000862.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:02,254 ERROR crawler.main Failed 000863.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:25,258 ERROR crawler.main Failed 000875.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:30,395 ERROR crawler.main Failed 000876.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:35,752 ERROR crawler.main Failed 000877.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:41,566 ERROR crawler.main Failed 000878.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:52,382 ERROR crawler.main Failed 000881.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:05:57,644 ERROR crawler.main Failed 000882.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:02,502 ERROR crawler.main Failed 000883.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:07,579 ERROR crawler.main Failed 000885.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:13,089 ERROR crawler.main Failed 000886.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:31,139 ERROR crawler.main Failed 000889.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:36,832 ERROR crawler.main Failed 000890.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:42,811 ERROR crawler.main Failed 000892.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:06:42,811 INFO crawler.main Progress: 420/5507 symbols processed, inserted=506989, failed=222
+2026-02-17 15:06:49,252 ERROR crawler.main Failed 000893.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:12,716 ERROR crawler.main Failed 000899.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:28,661 ERROR crawler.main Failed 000902.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:34,596 ERROR crawler.main Failed 000903.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:41,809 ERROR crawler.main Failed 000905.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:53,024 ERROR crawler.main Failed 000908.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:07:58,871 ERROR crawler.main Failed 000909.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:16,085 ERROR crawler.main Failed 000912.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:21,904 ERROR crawler.main Failed 000913.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:27,597 ERROR crawler.main Failed 000915.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:33,109 ERROR crawler.main Failed 000916.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:38,521 ERROR crawler.main Failed 000917.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:38,522 INFO crawler.main Progress: 440/5507 symbols processed, inserted=534948, failed=234
+2026-02-17 15:08:49,652 ERROR crawler.main Failed 000919.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:08:55,892 ERROR crawler.main Failed 000920.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:09:02,016 ERROR crawler.main Failed 000921.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:09:19,236 ERROR crawler.main Failed 000925.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:09:36,822 ERROR crawler.main Failed 000928.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:09:47,575 ERROR crawler.main Failed 000930.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:04,427 ERROR crawler.main Failed 000933.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:10,156 ERROR crawler.main Failed 000935.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:16,239 ERROR crawler.main Failed 000936.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:21,235 ERROR crawler.main Failed 000937.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:33,002 ERROR crawler.main Failed 000939.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:33,003 INFO crawler.main Progress: 460/5507 symbols processed, inserted=563161, failed=245
+2026-02-17 15:10:43,760 ERROR crawler.main Failed 000949.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:49,524 ERROR crawler.main Failed 000950.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:10:55,532 ERROR crawler.main Failed 000951.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:11:12,364 ERROR crawler.main Failed 000955.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:11:29,973 ERROR crawler.main Failed 000958.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:11:41,866 ERROR crawler.main Failed 000960.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:11:54,837 ERROR crawler.main Failed 000962.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:00,085 ERROR crawler.main Failed 000963.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:12,181 ERROR crawler.main Failed 000966.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:17,726 ERROR crawler.main Failed 000967.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:23,451 ERROR crawler.main Failed 000968.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:29,878 ERROR crawler.main Failed 000969.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:29,879 INFO crawler.main Progress: 480/5507 symbols processed, inserted=589724, failed=257
+2026-02-17 15:12:35,205 ERROR crawler.main Failed 000970.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:40,759 ERROR crawler.main Failed 000971.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:46,493 ERROR crawler.main Failed 000972.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:12:52,244 ERROR crawler.main Failed 000973.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:04,295 ERROR crawler.main Failed 000976.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:10,477 ERROR crawler.main Failed 000977.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:16,241 ERROR crawler.main Failed 000978.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:27,467 ERROR crawler.main Failed 000980.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:39,198 ERROR crawler.main Failed 000982.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:44,571 ERROR crawler.main Failed 000983.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:13:50,044 ERROR crawler.main Failed 000985.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:02,309 ERROR crawler.main Failed 000988.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:14,318 ERROR crawler.main Failed 000990.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:26,511 ERROR crawler.main Failed 000995.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:26,511 INFO crawler.main Progress: 500/5507 symbols processed, inserted=616232, failed=271
+2026-02-17 15:14:31,902 ERROR crawler.main Failed 000996.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:38,108 ERROR crawler.main Failed 000997.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:43,614 ERROR crawler.main Failed 000998.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:14:49,467 ERROR crawler.main Failed 000999.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:16:21,282 INFO crawler.main Progress: 520/5507 symbols processed, inserted=621452, failed=275
+2026-02-17 15:18:13,044 INFO crawler.main Progress: 540/5507 symbols processed, inserted=621452, failed=275
+2026-02-17 15:20:06,812 INFO crawler.main Progress: 560/5507 symbols processed, inserted=621452, failed=275
+2026-02-17 15:22:03,519 INFO crawler.main Progress: 580/5507 symbols processed, inserted=621452, failed=275
+2026-02-17 15:24:06,491 INFO crawler.main Progress: 600/5507 symbols processed, inserted=621452, failed=275
+2026-02-17 15:25:21,911 ERROR crawler.main Failed 001696.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:25:28,108 ERROR crawler.main Failed 001872.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:25:33,922 ERROR crawler.main Failed 001896.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:12,489 INFO crawler.main Progress: 620/5507 symbols processed, inserted=631109, failed=278
+2026-02-17 15:26:26,207 ERROR crawler.main Failed 002005.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:32,411 ERROR crawler.main Failed 002006.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:38,957 ERROR crawler.main Failed 002007.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:45,004 ERROR crawler.main Failed 002008.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:51,584 ERROR crawler.main Failed 002009.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:26:57,618 ERROR crawler.main Failed 002010.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:04,663 ERROR crawler.main Failed 002011.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:10,881 ERROR crawler.main Failed 002012.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:17,134 ERROR crawler.main Failed 002013.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:24,269 ERROR crawler.main Failed 002014.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:30,808 ERROR crawler.main Failed 002015.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:42,207 ERROR crawler.main Failed 002017.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:49,574 ERROR crawler.main Failed 002018.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:27:56,824 ERROR crawler.main Failed 002019.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:28:03,795 ERROR crawler.main Failed 002020.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:28:10,177 ERROR crawler.main Failed 002021.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:28:23,351 ERROR crawler.main Failed 002023.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:28:23,352 INFO crawler.main Progress: 640/5507 symbols processed, inserted=658192, failed=295
+2026-02-17 15:28:36,536 ERROR crawler.main Failed 002025.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:28:49,268 ERROR crawler.main Failed 002027.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:01,914 ERROR crawler.main Failed 002029.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:15,919 ERROR crawler.main Failed 002031.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:27,549 ERROR crawler.main Failed 002033.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:33,495 ERROR crawler.main Failed 002034.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:46,138 ERROR crawler.main Failed 002036.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:29:58,724 ERROR crawler.main Failed 002038.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:18,195 ERROR crawler.main Failed 002041.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:24,967 ERROR crawler.main Failed 002042.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:31,227 ERROR crawler.main Failed 002043.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:31,228 INFO crawler.main Progress: 660/5507 symbols processed, inserted=686689, failed=306
+2026-02-17 15:30:37,393 ERROR crawler.main Failed 002044.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:43,295 ERROR crawler.main Failed 002045.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:30:50,121 ERROR crawler.main Failed 002046.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:01,718 ERROR crawler.main Failed 002048.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:07,691 ERROR crawler.main Failed 002049.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:28,099 ERROR crawler.main Failed 002052.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:40,804 ERROR crawler.main Failed 002053.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:49,938 ERROR crawler.main Failed 002054.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:31:58,620 ERROR crawler.main Failed 002055.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:08,617 ERROR crawler.main Failed 002056.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:16,101 ERROR crawler.main Failed 002057.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:22,744 ERROR crawler.main Failed 002058.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:28,309 ERROR crawler.main Failed 002059.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:34,842 ERROR crawler.main Failed 002060.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:41,479 ERROR crawler.main Failed 002061.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:48,488 ERROR crawler.main Failed 002062.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:55,824 ERROR crawler.main Failed 002063.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:32:55,824 INFO crawler.main Progress: 680/5507 symbols processed, inserted=714542, failed=323
+2026-02-17 15:33:03,487 ERROR crawler.main Failed 002064.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:10,120 ERROR crawler.main Failed 002065.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:16,441 ERROR crawler.main Failed 002066.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:22,739 ERROR crawler.main Failed 002067.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:29,554 ERROR crawler.main Failed 002068.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:36,543 ERROR crawler.main Failed 002069.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:42,597 ERROR crawler.main Failed 002070.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:33:49,088 ERROR crawler.main Failed 002071.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:03,689 ERROR crawler.main Failed 002073.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:09,865 ERROR crawler.main Failed 002074.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:16,520 ERROR crawler.main Failed 002075.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:22,943 ERROR crawler.main Failed 002076.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:42,561 ERROR crawler.main Failed 002079.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:49,461 ERROR crawler.main Failed 002080.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:34:55,978 ERROR crawler.main Failed 002081.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:01,842 ERROR crawler.main Failed 002082.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:07,855 ERROR crawler.main Failed 002083.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:07,855 INFO crawler.main Progress: 700/5507 symbols processed, inserted=741762, failed=340
+2026-02-17 15:35:13,933 ERROR crawler.main Failed 002084.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:19,393 ERROR crawler.main Failed 002085.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:26,150 ERROR crawler.main Failed 002086.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:32,849 ERROR crawler.main Failed 002087.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:39,336 ERROR crawler.main Failed 002088.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:46,208 ERROR crawler.main Failed 002089.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:52,576 ERROR crawler.main Failed 002090.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:35:58,799 ERROR crawler.main Failed 002091.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:11,957 ERROR crawler.main Failed 002093.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:19,070 ERROR crawler.main Failed 002094.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:25,799 ERROR crawler.main Failed 002095.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:39,146 ERROR crawler.main Failed 002097.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:45,327 ERROR crawler.main Failed 002098.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:53,095 ERROR crawler.main Failed 002099.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:36:59,117 ERROR crawler.main Failed 002100.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:05,863 ERROR crawler.main Failed 002101.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:12,004 ERROR crawler.main Failed 002102.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:17,998 ERROR crawler.main Failed 002103.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:17,999 INFO crawler.main Progress: 720/5507 symbols processed, inserted=769309, failed=358
+2026-02-17 15:37:24,570 ERROR crawler.main Failed 002104.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:31,077 ERROR crawler.main Failed 002105.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:37:50,730 ERROR crawler.main Failed 002108.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:16,068 ERROR crawler.main Failed 002112.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:22,593 ERROR crawler.main Failed 002113.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:28,684 ERROR crawler.main Failed 002114.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:35,383 ERROR crawler.main Failed 002115.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:41,534 ERROR crawler.main Failed 002116.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:46,905 ERROR crawler.main Failed 002117.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:53,203 ERROR crawler.main Failed 002118.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:38:59,752 ERROR crawler.main Failed 002119.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:06,290 ERROR crawler.main Failed 002120.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:12,254 ERROR crawler.main Failed 002121.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:18,785 ERROR crawler.main Failed 002122.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:25,132 ERROR crawler.main Failed 002123.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:25,132 INFO crawler.main Progress: 740/5507 symbols processed, inserted=796881, failed=373
+2026-02-17 15:39:37,707 ERROR crawler.main Failed 002125.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:50,660 ERROR crawler.main Failed 002127.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:39:56,432 ERROR crawler.main Failed 002128.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:02,088 ERROR crawler.main Failed 002129.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:10,165 ERROR crawler.main Failed 002130.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:18,778 ERROR crawler.main Failed 002131.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:27,314 ERROR crawler.main Failed 002132.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:45,943 ERROR crawler.main Failed 002134.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:40:54,125 ERROR crawler.main Failed 002135.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:03,678 ERROR crawler.main Failed 002136.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:11,372 ERROR crawler.main Failed 002137.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:17,828 ERROR crawler.main Failed 002138.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:24,525 ERROR crawler.main Failed 002139.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:37,399 ERROR crawler.main Failed 002141.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:43,694 ERROR crawler.main Failed 002142.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:50,778 ERROR crawler.main Failed 002143.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:41:50,779 INFO crawler.main Progress: 760/5507 symbols processed, inserted=824790, failed=389
+2026-02-17 15:41:57,539 ERROR crawler.main Failed 002144.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:15,380 ERROR crawler.main Failed 002147.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:21,990 ERROR crawler.main Failed 002148.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:27,237 ERROR crawler.main Failed 002149.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:33,824 ERROR crawler.main Failed 002150.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:39,747 ERROR crawler.main Failed 002151.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:45,981 ERROR crawler.main Failed 002152.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:52,761 ERROR crawler.main Failed 002153.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:42:59,405 ERROR crawler.main Failed 002154.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:05,707 ERROR crawler.main Failed 002155.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:12,622 ERROR crawler.main Failed 002156.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:20,104 ERROR crawler.main Failed 002157.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:25,843 ERROR crawler.main Failed 002158.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:32,489 ERROR crawler.main Failed 002159.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:39,142 ERROR crawler.main Failed 002160.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:45,424 ERROR crawler.main Failed 002161.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:57,864 ERROR crawler.main Failed 002163.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:43:57,865 INFO crawler.main Progress: 780/5507 symbols processed, inserted=852563, failed=406
+2026-02-17 15:44:04,586 ERROR crawler.main Failed 002164.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:44:29,062 ERROR crawler.main Failed 002168.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:44:35,006 ERROR crawler.main Failed 002169.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:44:40,965 ERROR crawler.main Failed 002170.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:44:47,826 ERROR crawler.main Failed 002171.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:05,656 ERROR crawler.main Failed 002174.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:12,680 ERROR crawler.main Failed 002175.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:19,283 ERROR crawler.main Failed 002176.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:25,964 ERROR crawler.main Failed 002177.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:32,224 ERROR crawler.main Failed 002178.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:38,968 ERROR crawler.main Failed 002179.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:44,720 ERROR crawler.main Failed 002180.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:50,047 ERROR crawler.main Failed 002181.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:45:57,155 ERROR crawler.main Failed 002182.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:03,451 ERROR crawler.main Failed 002183.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:03,451 INFO crawler.main Progress: 800/5507 symbols processed, inserted=879839, failed=421
+2026-02-17 15:46:09,927 ERROR crawler.main Failed 002184.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:15,712 ERROR crawler.main Failed 002185.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:22,469 ERROR crawler.main Failed 002186.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:29,080 ERROR crawler.main Failed 002187.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:35,797 ERROR crawler.main Failed 002188.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:42,008 ERROR crawler.main Failed 002189.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:48,267 ERROR crawler.main Failed 002190.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:46:54,386 ERROR crawler.main Failed 002191.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:06,709 ERROR crawler.main Failed 002193.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:12,454 ERROR crawler.main Failed 002194.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:19,047 ERROR crawler.main Failed 002195.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:32,172 ERROR crawler.main Failed 002197.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:38,940 ERROR crawler.main Failed 002198.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:47:57,338 ERROR crawler.main Failed 002201.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:10,085 ERROR crawler.main Failed 002203.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:10,086 INFO crawler.main Progress: 820/5507 symbols processed, inserted=907377, failed=436
+2026-02-17 15:48:17,025 ERROR crawler.main Failed 002204.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:22,995 ERROR crawler.main Failed 002205.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:36,058 ERROR crawler.main Failed 002207.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:48,432 ERROR crawler.main Failed 002209.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:48:54,596 ERROR crawler.main Failed 002210.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:01,139 ERROR crawler.main Failed 002211.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:07,261 ERROR crawler.main Failed 002212.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:13,226 ERROR crawler.main Failed 002213.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:26,075 ERROR crawler.main Failed 002215.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:38,828 ERROR crawler.main Failed 002217.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:49:58,087 ERROR crawler.main Failed 002220.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:04,912 ERROR crawler.main Failed 002221.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:11,845 ERROR crawler.main Failed 002222.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:18,537 ERROR crawler.main Failed 002223.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:18,538 INFO crawler.main Progress: 840/5507 symbols processed, inserted=935166, failed=450
+2026-02-17 15:50:24,315 ERROR crawler.main Failed 002224.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:30,734 ERROR crawler.main Failed 002225.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:37,432 ERROR crawler.main Failed 002226.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:43,864 ERROR crawler.main Failed 002227.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:49,711 ERROR crawler.main Failed 002228.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:50:55,980 ERROR crawler.main Failed 002229.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:02,513 ERROR crawler.main Failed 002230.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:09,595 ERROR crawler.main Failed 002231.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:15,943 ERROR crawler.main Failed 002232.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:28,799 ERROR crawler.main Failed 002234.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:48,814 ERROR crawler.main Failed 002237.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:51:55,028 ERROR crawler.main Failed 002238.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:52:01,134 ERROR crawler.main Failed 002239.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:52:14,471 ERROR crawler.main Failed 002241.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:52:28,444 ERROR crawler.main Failed 002243.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:52:28,445 INFO crawler.main Progress: 860/5507 symbols processed, inserted=962846, failed=465
+2026-02-17 15:52:41,509 ERROR crawler.main Failed 002245.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:52:48,024 ERROR crawler.main Failed 002246.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:07,037 ERROR crawler.main Failed 002249.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:14,669 ERROR crawler.main Failed 002250.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:26,093 ERROR crawler.main Failed 002252.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:33,021 ERROR crawler.main Failed 002253.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:39,911 ERROR crawler.main Failed 002254.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:53:53,696 ERROR crawler.main Failed 002256.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:12,308 ERROR crawler.main Failed 002260.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:19,419 ERROR crawler.main Failed 002261.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:26,239 ERROR crawler.main Failed 002262.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:33,808 ERROR crawler.main Failed 002263.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:39,700 INFO crawler.main Progress: 880/5507 symbols processed, inserted=990656, failed=477
+2026-02-17 15:54:46,965 ERROR crawler.main Failed 002265.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:53,167 ERROR crawler.main Failed 002266.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:54:59,635 ERROR crawler.main Failed 002267.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:05,734 ERROR crawler.main Failed 002268.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:12,013 ERROR crawler.main Failed 002269.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:19,197 ERROR crawler.main Failed 002270.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:27,041 ERROR crawler.main Failed 002271.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:35,583 ERROR crawler.main Failed 002272.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:43,096 ERROR crawler.main Failed 002273.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:55:50,698 ERROR crawler.main Failed 002274.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:02,977 ERROR crawler.main Failed 002275.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:10,645 ERROR crawler.main Failed 002276.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:19,185 ERROR crawler.main Failed 002277.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:25,565 ERROR crawler.main Failed 002278.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:32,067 ERROR crawler.main Failed 002279.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:38,943 ERROR crawler.main Failed 002280.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:46,004 ERROR crawler.main Failed 002281.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:53,203 ERROR crawler.main Failed 002282.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:56:59,543 ERROR crawler.main Failed 002283.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:05,806 ERROR crawler.main Failed 002284.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:05,807 INFO crawler.main Progress: 900/5507 symbols processed, inserted=1018852, failed=497
+2026-02-17 15:57:18,830 ERROR crawler.main Failed 002286.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:25,745 ERROR crawler.main Failed 002287.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:31,545 ERROR crawler.main Failed 002288.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:38,632 ERROR crawler.main Failed 002289.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:44,512 ERROR crawler.main Failed 002290.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:50,566 ERROR crawler.main Failed 002291.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:57:57,042 ERROR crawler.main Failed 002292.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:02,528 ERROR crawler.main Failed 002293.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:09,012 ERROR crawler.main Failed 002294.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:15,143 ERROR crawler.main Failed 002295.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:20,754 ERROR crawler.main Failed 002296.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:27,661 ERROR crawler.main Failed 002297.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:34,262 ERROR crawler.main Failed 002298.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:40,186 ERROR crawler.main Failed 002299.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:45,807 ERROR crawler.main Failed 002300.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:58:57,473 ERROR crawler.main Failed 002302.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:59:04,150 ERROR crawler.main Failed 002303.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:59:10,485 ERROR crawler.main Failed 002304.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:59:10,486 INFO crawler.main Progress: 920/5507 symbols processed, inserted=1046669, failed=515
+2026-02-17 15:59:47,130 ERROR crawler.main Failed 002308.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 15:59:54,716 ERROR crawler.main Failed 002309.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:00:13,990 ERROR crawler.main Failed 002310.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:00:20,591 ERROR crawler.main Failed 002311.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:00:26,700 ERROR crawler.main Failed 002312.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:00:39,470 ERROR crawler.main Failed 002314.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:00:57,884 ERROR crawler.main Failed 002317.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:01:28,624 ERROR crawler.main Failed 002322.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:01:34,829 ERROR crawler.main Failed 002323.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:01:41,063 INFO crawler.main Progress: 940/5507 symbols processed, inserted=1074157, failed=524
+2026-02-17 16:02:00,356 ERROR crawler.main Failed 002327.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:12,094 ERROR crawler.main Failed 002329.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:18,654 ERROR crawler.main Failed 002330.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:24,918 ERROR crawler.main Failed 002331.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:36,870 ERROR crawler.main Failed 002333.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:42,341 ERROR crawler.main Failed 002334.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:48,432 ERROR crawler.main Failed 002335.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:02:55,085 ERROR crawler.main Failed 002336.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:03:46,121 ERROR crawler.main Failed 002344.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:03:46,122 INFO crawler.main Progress: 960/5507 symbols processed, inserted=1102130, failed=533
+2026-02-17 16:03:52,788 ERROR crawler.main Failed 002345.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:04:12,660 ERROR crawler.main Failed 002348.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:04:18,377 ERROR crawler.main Failed 002349.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:04:32,003 ERROR crawler.main Failed 002351.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:04:44,776 ERROR crawler.main Failed 002353.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:04:57,154 ERROR crawler.main Failed 002355.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:03,603 ERROR crawler.main Failed 002356.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:17,103 ERROR crawler.main Failed 002358.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:30,340 ERROR crawler.main Failed 002360.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:37,095 ERROR crawler.main Failed 002361.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:43,106 ERROR crawler.main Failed 002362.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:05:56,712 INFO crawler.main Progress: 980/5507 symbols processed, inserted=1129257, failed=544
+2026-02-17 16:06:03,057 ERROR crawler.main Failed 002365.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:06:28,654 ERROR crawler.main Failed 002369.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:06:35,529 ERROR crawler.main Failed 002370.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:06:42,370 ERROR crawler.main Failed 002371.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:06:48,553 ERROR crawler.main Failed 002372.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:02,776 ERROR crawler.main Failed 002374.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:09,090 ERROR crawler.main Failed 002375.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:15,271 ERROR crawler.main Failed 002376.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:22,089 ERROR crawler.main Failed 002377.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:28,004 ERROR crawler.main Failed 002378.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:33,750 ERROR crawler.main Failed 002379.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:39,901 ERROR crawler.main Failed 002380.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:07:58,594 ERROR crawler.main Failed 002383.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:08:10,428 INFO crawler.main Progress: 1000/5507 symbols processed, inserted=1156067, failed=557
+2026-02-17 16:08:26,666 ERROR crawler.main Failed 002385.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:08:32,123 WARNING crawler.fetcher Timeout (attempt 1/5): HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?secid=0.002386&ut=7eea3edcaed734bea9cbfc24409ed989&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=1&beg=20100101&end=20101231&lmt=1000000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='push2his.eastmoney.com', port=443) at 0x26531b59e20>, 'Connection to push2his.eastmoney.com timed out. (connect timeout=5.0)'))
+2026-02-17 16:08:41,355 WARNING crawler.fetcher Timeout (attempt 2/5): HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=5.0)
+2026-02-17 16:09:01,598 ERROR crawler.main Failed 002386.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:10:31,988 ERROR crawler.main Failed 002399.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:10:43,743 ERROR crawler.main Failed 002401.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:11:03,063 INFO crawler.main Progress: 1020/5507 symbols processed, inserted=1182811, failed=561
+2026-02-17 16:11:09,589 ERROR crawler.main Failed 002405.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:11:15,719 ERROR crawler.main Failed 002406.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:11:22,246 ERROR crawler.main Failed 002407.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:11:28,327 ERROR crawler.main Failed 002408.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:12:08,069 ERROR crawler.main Failed 002414.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:12:14,735 ERROR crawler.main Failed 002415.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:12:35,102 ERROR crawler.main Failed 002418.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:12:41,702 ERROR crawler.main Failed 002419.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:12:54,236 ERROR crawler.main Failed 002421.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:00,924 ERROR crawler.main Failed 002422.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:15,142 ERROR crawler.main Failed 002424.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:15,143 INFO crawler.main Progress: 1040/5507 symbols processed, inserted=1208777, failed=572
+2026-02-17 16:13:21,162 ERROR crawler.main Failed 002425.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:27,832 ERROR crawler.main Failed 002426.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:34,241 ERROR crawler.main Failed 002427.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:47,072 ERROR crawler.main Failed 002429.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:53,414 ERROR crawler.main Failed 002430.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:13:59,171 ERROR crawler.main Failed 002431.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:14:06,274 ERROR crawler.main Failed 002432.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:14:38,425 ERROR crawler.main Failed 002437.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:14:51,363 ERROR crawler.main Failed 002439.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:03,996 ERROR crawler.main Failed 002441.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:16,745 ERROR crawler.main Failed 002443.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:23,015 ERROR crawler.main Failed 002444.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:23,015 INFO crawler.main Progress: 1060/5507 symbols processed, inserted=1234329, failed=584
+2026-02-17 16:15:29,738 ERROR crawler.main Failed 002445.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:35,986 ERROR crawler.main Failed 002446.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:42,392 ERROR crawler.main Failed 002447.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:15:55,158 ERROR crawler.main Failed 002449.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:16:08,233 ERROR crawler.main Failed 002451.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:16:21,603 ERROR crawler.main Failed 002453.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:16:41,737 ERROR crawler.main Failed 002456.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:16:48,182 ERROR crawler.main Failed 002457.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:08,481 ERROR crawler.main Failed 002460.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:14,806 ERROR crawler.main Failed 002461.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:21,035 ERROR crawler.main Failed 002462.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:27,268 ERROR crawler.main Failed 002463.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:33,915 ERROR crawler.main Failed 002464.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:33,916 INFO crawler.main Progress: 1080/5507 symbols processed, inserted=1259594, failed=597
+2026-02-17 16:17:40,999 ERROR crawler.main Failed 002465.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:17:54,682 ERROR crawler.main Failed 002467.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:18:39,948 ERROR crawler.main Failed 002474.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:18:46,451 ERROR crawler.main Failed 002475.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:18:59,422 ERROR crawler.main Failed 002477.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:19:19,007 ERROR crawler.main Failed 002480.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:19:31,997 ERROR crawler.main Failed 002482.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:19:45,742 INFO crawler.main Progress: 1100/5507 symbols processed, inserted=1284169, failed=604
+2026-02-17 16:19:52,537 ERROR crawler.main Failed 002485.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:20:05,559 ERROR crawler.main Failed 002487.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:20:12,539 ERROR crawler.main Failed 002488.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:20:18,937 ERROR crawler.main Failed 002489.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:20:25,522 ERROR crawler.main Failed 002490.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:20:52,544 ERROR crawler.main Failed 002494.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:21:20,001 ERROR crawler.main Failed 002498.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:21:32,688 ERROR crawler.main Failed 002500.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:21:59,634 ERROR crawler.main Failed 002504.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:21:59,634 INFO crawler.main Progress: 1120/5507 symbols processed, inserted=1308427, failed=613
+2026-02-17 16:22:37,728 ERROR crawler.main Failed 002510.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:22:44,129 ERROR crawler.main Failed 002511.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:23:45,187 ERROR crawler.main Failed 002517.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:23:55,506 ERROR crawler.main Failed 002518.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:24:08,959 ERROR crawler.main Failed 002520.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:24:21,759 ERROR crawler.main Failed 002522.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:24:27,757 ERROR crawler.main Failed 002523.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:24:34,131 ERROR crawler.main Failed 002524.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:24:34,132 INFO crawler.main Progress: 1140/5507 symbols processed, inserted=1331492, failed=621
+2026-02-17 16:24:47,575 ERROR crawler.main Failed 002527.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:25:19,767 ERROR crawler.main Failed 002532.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:25:25,593 ERROR crawler.main Failed 002533.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:25:55,833 ERROR crawler.main Failed 002538.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:26:01,837 ERROR crawler.main Failed 002539.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:26:08,139 ERROR crawler.main Failed 002540.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 16:26:14,552 ERROR crawler.main Failed 002541.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:10:23,867 WARNING crawler.fetcher Request error (attempt 1/5): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-17 17:10:41,309 ERROR crawler.main Failed 002545.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:10:41,309 INFO crawler.main Progress: 1160/5507 symbols processed, inserted=1354648, failed=629
+2026-02-17 17:10:59,632 ERROR crawler.main Failed 002548.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:11:06,950 ERROR crawler.main Failed 002549.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:11:12,862 ERROR crawler.main Failed 002550.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:11:24,944 ERROR crawler.main Failed 002552.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:11:30,870 ERROR crawler.main Failed 002553.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:11:36,514 ERROR crawler.main Failed 002554.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:12:02,899 ERROR crawler.main Failed 002558.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:12:20,598 ERROR crawler.main Failed 002561.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:12:45,227 INFO crawler.main Progress: 1180/5507 symbols processed, inserted=1377114, failed=637
+2026-02-17 17:13:16,286 ERROR crawler.main Failed 002570.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:13:22,296 ERROR crawler.main Failed 002571.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:13:28,183 ERROR crawler.main Failed 002572.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:13:40,634 ERROR crawler.main Failed 002574.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:13:46,775 ERROR crawler.main Failed 002575.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:14:19,101 ERROR crawler.main Failed 002580.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:14:24,645 ERROR crawler.main Failed 002581.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:14:48,918 INFO crawler.main Progress: 1200/5507 symbols processed, inserted=1398460, failed=644
+2026-02-17 17:15:33,109 ERROR crawler.main Failed 002592.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:15:45,821 ERROR crawler.main Failed 002594.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:15:51,293 ERROR crawler.main Failed 002595.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:03,162 ERROR crawler.main Failed 002597.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:15,018 ERROR crawler.main Failed 002599.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:21,402 ERROR crawler.main Failed 002600.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:27,988 ERROR crawler.main Failed 002601.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:34,271 ERROR crawler.main Failed 002602.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:40,494 ERROR crawler.main Failed 002603.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:46,435 ERROR crawler.main Failed 002604.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:16:52,771 INFO crawler.main Progress: 1220/5507 symbols processed, inserted=1419163, failed=654
+2026-02-17 17:17:06,062 ERROR crawler.main Failed 002607.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:17:18,567 ERROR crawler.main Failed 002609.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:17:31,985 ERROR crawler.main Failed 002611.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:17:44,908 ERROR crawler.main Failed 002613.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:18:02,459 ERROR crawler.main Failed 002616.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:18:08,417 ERROR crawler.main Failed 002617.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:18:14,002 ERROR crawler.main Failed 002618.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:18:26,116 ERROR crawler.main Failed 002620.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:18:57,409 INFO crawler.main Progress: 1240/5507 symbols processed, inserted=1438719, failed=662
+2026-02-17 17:19:09,622 ERROR crawler.main Failed 002627.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:19:28,102 ERROR crawler.main Failed 002630.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:19:34,373 ERROR crawler.main Failed 002631.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:19:45,611 ERROR crawler.main Failed 002633.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:20:11,493 ERROR crawler.main Failed 002637.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:20:17,781 ERROR crawler.main Failed 002638.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:20:48,032 ERROR crawler.main Failed 002643.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:20:59,958 ERROR crawler.main Failed 002645.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:20:59,960 INFO crawler.main Progress: 1260/5507 symbols processed, inserted=1457191, failed=670
+2026-02-17 17:21:24,800 ERROR crawler.main Failed 002649.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:21:31,058 ERROR crawler.main Failed 002650.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:21:37,323 ERROR crawler.main Failed 002651.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:21:55,828 ERROR crawler.main Failed 002654.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:22:02,660 ERROR crawler.main Failed 002655.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:22:29,742 ERROR crawler.main Failed 002659.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:22:42,141 ERROR crawler.main Failed 002661.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:22:47,467 ERROR crawler.main Failed 002662.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:22:54,105 ERROR crawler.main Failed 002663.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:05,580 INFO crawler.main Progress: 1280/5507 symbols processed, inserted=1474701, failed=679
+2026-02-17 17:23:11,680 ERROR crawler.main Failed 002666.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:18,399 ERROR crawler.main Failed 002667.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:25,492 ERROR crawler.main Failed 002668.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:31,547 ERROR crawler.main Failed 002669.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:38,008 ERROR crawler.main Failed 002670.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:51,123 ERROR crawler.main Failed 002672.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:23:58,298 ERROR crawler.main Failed 002673.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:24:04,456 ERROR crawler.main Failed 002674.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:24:30,953 ERROR crawler.main Failed 002678.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:24:43,211 ERROR crawler.main Failed 002680.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:24:56,507 ERROR crawler.main Failed 002682.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:02,732 ERROR crawler.main Failed 002683.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:08,702 ERROR crawler.main Failed 002684.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:14,073 ERROR crawler.main Failed 002685.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:14,073 INFO crawler.main Progress: 1300/5507 symbols processed, inserted=1491271, failed=693
+2026-02-17 17:25:21,739 ERROR crawler.main Failed 002686.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:44,801 ERROR crawler.main Failed 002690.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:50,896 ERROR crawler.main Failed 002691.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:25:57,132 ERROR crawler.main Failed 002692.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:26:02,665 ERROR crawler.main Failed 002693.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:26:13,583 ERROR crawler.main Failed 002695.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:26:25,236 ERROR crawler.main Failed 002697.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:26:30,920 ERROR crawler.main Failed 002698.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:11,336 ERROR crawler.main Failed 002706.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:11,336 INFO crawler.main Progress: 1320/5507 symbols processed, inserted=1506505, failed=702
+2026-02-17 17:27:17,265 ERROR crawler.main Failed 002707.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:28,324 ERROR crawler.main Failed 002709.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:34,490 ERROR crawler.main Failed 002711.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:40,458 ERROR crawler.main Failed 002712.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:46,295 ERROR crawler.main Failed 002713.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:27:57,382 ERROR crawler.main Failed 002715.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:09,618 ERROR crawler.main Failed 002717.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:15,454 ERROR crawler.main Failed 002718.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:25,746 ERROR crawler.main Failed 002721.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:31,348 ERROR crawler.main Failed 002722.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:42,826 ERROR crawler.main Failed 002724.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:54,026 ERROR crawler.main Failed 002726.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:28:59,429 ERROR crawler.main Failed 002727.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:05,128 ERROR crawler.main Failed 002728.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:05,129 INFO crawler.main Progress: 1340/5507 symbols processed, inserted=1514484, failed=716
+2026-02-17 17:29:11,812 ERROR crawler.main Failed 002729.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:12,822 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 17:29:14,837 INFO crawler.main Progress: 1/1 symbols processed, inserted=0, failed=0
+2026-02-17 17:29:14,838 INFO crawler.main Finished. elapsed=2.0s, inserted=0, failed=0
+2026-02-17 17:29:14,838 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:29:14,838 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:29:14,838 INFO crawler.main Frequency summary: daily inserted=0
+2026-02-17 17:29:14,838 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 17:29:17,741 ERROR crawler.main Failed 002730.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:23,378 ERROR crawler.main Failed 002731.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:28,842 ERROR crawler.main Failed 002732.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:34,698 ERROR crawler.main Failed 002733.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:41,043 ERROR crawler.main Failed 002734.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:46,670 ERROR crawler.main Failed 002735.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:52,640 ERROR crawler.main Failed 002736.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:29:57,940 ERROR crawler.main Failed 002737.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:03,819 ERROR crawler.main Failed 002738.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:09,175 ERROR crawler.main Failed 002739.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:15,113 ERROR crawler.main Failed 002740.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:20,125 ERROR crawler.main Failed 002741.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:25,887 ERROR crawler.main Failed 002742.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:31,508 ERROR crawler.main Failed 002743.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:37,231 ERROR crawler.main Failed 002745.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:43,267 ERROR crawler.main Failed 002746.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:49,012 ERROR crawler.main Failed 002747.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:30:54,645 ERROR crawler.main Failed 002748.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:00,425 ERROR crawler.main Failed 002749.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:00,425 INFO crawler.main Progress: 1360/5507 symbols processed, inserted=1519342, failed=736
+2026-02-17 17:31:05,674 ERROR crawler.main Failed 002750.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:12,105 ERROR crawler.main Failed 002751.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:18,235 ERROR crawler.main Failed 002752.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:23,553 ERROR crawler.main Failed 002753.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:28,495 ERROR crawler.main Failed 002755.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:33,816 ERROR crawler.main Failed 002756.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:40,195 ERROR crawler.main Failed 002757.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:46,630 ERROR crawler.main Failed 002758.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:52,397 ERROR crawler.main Failed 002759.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:31:57,905 ERROR crawler.main Failed 002760.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:03,795 ERROR crawler.main Failed 002761.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:09,075 ERROR crawler.main Failed 002762.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:15,225 ERROR crawler.main Failed 002763.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:20,663 ERROR crawler.main Failed 002765.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:26,238 ERROR crawler.main Failed 002766.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:31,390 ERROR crawler.main Failed 002767.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:36,661 ERROR crawler.main Failed 002768.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:42,132 ERROR crawler.main Failed 002769.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:48,207 ERROR crawler.main Failed 002770.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:53,882 ERROR crawler.main Failed 002771.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:32:53,883 INFO crawler.main Progress: 1380/5507 symbols processed, inserted=1522624, failed=756
+2026-02-17 17:32:59,805 ERROR crawler.main Failed 002772.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:33:05,914 ERROR crawler.main Failed 002773.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:33:16,755 ERROR crawler.main Failed 002775.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:33:22,560 ERROR crawler.main Failed 002776.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:33:28,162 ERROR crawler.main Failed 002777.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:33:34,111 ERROR crawler.main Failed 002778.SZ daily: Error binding parameter 14: type 'NAType' is not supported
+2026-02-17 17:34:09,051 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 17:34:16,616 INFO crawler.main Progress: 1/1 symbols processed, inserted=2334, failed=0
+2026-02-17 17:34:16,617 INFO crawler.main Finished. elapsed=7.6s, inserted=2334, failed=0
+2026-02-17 17:34:16,617 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:34:16,618 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:34:16,618 INFO crawler.main Frequency summary: daily inserted=2334
+2026-02-17 17:34:16,618 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 17:37:37,610 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 17:37:46,645 INFO crawler.main Done 1/1 000005.SZ (ST星源): inserted=1963, feature_upserted=0, by_freq=[daily:1963], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:37:46,646 INFO crawler.main Progress: 1/1 symbols processed, inserted=1963, failed=0
+2026-02-17 17:37:46,646 INFO crawler.main Finished. elapsed=9.0s, inserted=1963, failed=0
+2026-02-17 17:37:46,646 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:37:46,647 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:37:46,647 INFO crawler.main Frequency summary: daily inserted=1963
+2026-02-17 17:37:46,647 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 17:38:14,334 INFO crawler.main Start crawling: symbols=6, frequencies=['daily']
+2026-02-17 17:38:15,896 INFO crawler.main Done 1/6 000001.SZ (平安银行): inserted=0, feature_upserted=0, by_freq=[daily:0], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:16,570 INFO crawler.main Done 2/6 000002.SZ (万  科Ａ): inserted=0, feature_upserted=0, by_freq=[daily:0], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:24,566 INFO crawler.main Done 3/6 000008.SZ (神州高铁): inserted=2373, feature_upserted=0, by_freq=[daily:2373], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:32,146 INFO crawler.main Done 4/6 000017.SZ (深中华A): inserted=2405, feature_upserted=0, by_freq=[daily:2405], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:40,126 INFO crawler.main Done 5/6 000018.SZ (神城A退): inserted=919, feature_upserted=0, by_freq=[daily:919], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:48,181 INFO crawler.main Done 6/6 000021.SZ (深科技): inserted=2438, feature_upserted=0, by_freq=[daily:2438], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:38:48,181 INFO crawler.main Progress: 6/6 symbols processed, inserted=8135, failed=0
+2026-02-17 17:38:48,184 INFO crawler.main Finished. elapsed=33.9s, inserted=8135, failed=0
+2026-02-17 17:38:48,184 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:38:48,184 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:38:48,184 INFO crawler.main Frequency summary: daily inserted=8135
+2026-02-17 17:38:48,184 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 17:46:18,287 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 17:46:37,077 INFO crawler.main Done 1/1 600155.SH: inserted=6020, feature_upserted=0, by_freq=[daily:6020], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:46:37,078 INFO crawler.main Progress: 1/1 symbols processed, inserted=6020, failed=0
+2026-02-17 17:46:37,078 INFO crawler.main Finished. elapsed=18.8s, inserted=6020, failed=0
+2026-02-17 17:46:37,079 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:46:37,079 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:46:37,079 INFO crawler.main Frequency summary: daily inserted=6020
+2026-02-17 17:46:37,079 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log
+2026-02-17 17:47:57,067 INFO crawler.main Start crawling: symbols=1, frequencies=['daily']
+2026-02-17 17:48:19,855 INFO crawler.main Done 1/1 600724.SH: inserted=6637, feature_upserted=0, by_freq=[daily:6637], db=D:\ai-stock-trader\data\market_kline.db
+2026-02-17 17:48:19,855 INFO crawler.main Progress: 1/1 symbols processed, inserted=6637, failed=0
+2026-02-17 17:48:19,856 INFO crawler.main Finished. elapsed=22.8s, inserted=6637, failed=0
+2026-02-17 17:48:19,856 INFO crawler.main Feature rows upserted=0
+2026-02-17 17:48:19,856 INFO crawler.main Stock info rows upserted=0
+2026-02-17 17:48:19,856 INFO crawler.main Frequency summary: daily inserted=6637
+2026-02-17 17:48:19,856 INFO crawler.main DB=D:\ai-stock-trader\data\market_kline.db, failed_log=failed_symbols.log

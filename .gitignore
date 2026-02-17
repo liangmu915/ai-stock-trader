@@ -1,4 +1,6 @@
 venv/
+data/
+archive_20260217/
 __pycache__/
 *.pyc
 .env
